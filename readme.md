@@ -11,7 +11,13 @@ You'll need [Node.js](https://nodejs.org/en/), [npm](https://www.npmjs.com/), an
 Install Node, then install Parcel:
 
 ```bash
-npm install -g parcel-bundler
+npm install -g parcel
+```
+
+or 
+
+```bash
+yarn add -g parcel
 ```
 
 ## Getting Started
@@ -41,10 +47,22 @@ Start development server:
 npm run start
 ```
 
+or 
+
+```
+yarn start
+```
+
 To create a production build:
 
 ```
 npm run build
+```
+
+or
+
+```
+yarn build
 ```
 
 Production files will be placed in the `dist` folder. Then upload those files to a web server.
@@ -69,9 +87,10 @@ TypeScript files are intended for the `src` folder. `main.ts` is the entry point
 
 Other than that there is no opinion on how you should structure your project. There is a `scenes` folder in `src` where the `HelloWorldScene.ts` lives but you can do whatever you want.
 
+
 ## Static Assets
 
-Any static assets like images or audio files should be placed in the `public` folder. It'll then be served at http://localhost:8000/images/my-image.png
+Any static assets like images or audio files should be placed in the `public` folder.
 
 Example `public` structure:
 
@@ -85,7 +104,7 @@ Example `public` structure:
     │   ├── ...
 ```
 
-They can then be loaded by Phaser with `this.image.load('my-image', 'images/my-image.png')`.
+They can then be loaded by Phaser with `this.image.load('my-image', 'my-image.png')`.
 
 ## TypeScript ESLint
 
@@ -103,10 +122,5 @@ The script looks like this:
 parcel src/index.html -p 1234
 ```
 
-Change 8000 to whatever you want.
+Change 1234 to whatever you want.
 
-## Other Notes
-
-[parcel-plugin-clean-easy](https://github.com/lifuzhao100/parcel-plugin-clean-easy) is used to ensure only the latest files are in the `dist` folder. You can modify this behavior by changing `parcelCleanPaths` in `package.json`.
-
-[parcel-plugin-static-files](https://github.com/elwin013/parcel-plugin-static-files-copy#readme) is used to copy static files from `public` into the output directory and serve it. You can add additional paths by modifying `staticFiles` in `package.json`.
