@@ -6,9 +6,9 @@
 
 navigate to to the:
 
-[Phaser_template](https://github.com/andyroid0/Phaser_template.git)
+[Generate-Phaser-template](https://github.com/andyroid0/Phaser_template/generate)
 
-Click the green Use this template button. Fill out as desired. Then rock and roll!
+
 
 ## Prerequisites
 
@@ -28,13 +28,7 @@ or
 yarn add -g parcel
 ```
 
-## Template Usage
 
-navigate to to the:
-
-[Phaser_template](https://github.com/andyroid0/Phaser_template.git)
-
-Click the green Use this template button. Fill out as desired. Then rock and roll!
 
 ## Getting Started
 
@@ -83,6 +77,8 @@ yarn build
 
 Production files will be placed in the `dist` folder. Then upload those files to a web server.
 
+
+
 ## Project Structure
 
 ```
@@ -104,6 +100,7 @@ TypeScript files are intended for the `src` folder. `main.ts` is the entry point
 Other than that there is no opinion on how you should structure your project. There is a `scenes` folder in `src` where the `HelloWorldScene.ts` lives but you can do whatever you want.
 
 
+
 ## Static Assets
 
 Any static assets like images or audio files should be placed in the `public` folder.
@@ -122,11 +119,15 @@ Example `public` structure:
 
 They can then be loaded by Phaser with `this.image.load('my-image', 'my-image.png')`.
 
+
+
 ## TypeScript ESLint
 
 This template uses a basic `typescript-eslint` set up for code linting.
 
 It does not aim to be opinionated.
+
+
 
 ## Dev Server Port
 
