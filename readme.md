@@ -20,24 +20,32 @@ or
 yarn add -g parcel
 ```
 
+## Template Useage
+
+navigate to to the:
+
+[Phaser_template](https://github.com/andyroid0/Phaser_template.git)
+
+Click the green Use this template button. Fill out as desired. Then rock and roll!
+
 ## Getting Started
 
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/andyroid0/parceljs_temp.git
+git clone https://github.com/andyroid0/Phaser_template.git
 ```
 
-This will create a folder named `parceljs_temp`. You can specify a different folder name like this:
+This will create a folder named `Phaser_template`. You can specify a different folder name like this:
 
 ```bash
-git clone https://github.com/andyroid0/parceljs_temp.git my-folder-name
+git clone https://github.com/andyroid0/Phaser_template.git my-folder-name
 ```
 
 Go into your new project folder and install dependencies:
 
 ```bash
-cd parceljs_temp # or 'my-folder-name'
+cd Phaser_template # or 'my-folder-name'
 npm install
 ```
 
