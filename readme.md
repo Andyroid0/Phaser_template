@@ -1,6 +1,14 @@
 
-# Phaser 3 + TypeScript + Parcel Template
+# Phaser 3 + TypeScript Template
 
+
+## Template Usage
+
+navigate to to the:
+
+[Phaser_template](https://github.com/andyroid0/Phaser_template.git)
+
+Click the green Use this template button. Fill out as desired. Then rock and roll!
 
 ## Prerequisites
 
@@ -20,7 +28,7 @@ or
 yarn add -g parcel
 ```
 
-## Template Useage
+## Template Usage
 
 navigate to to the:
 
