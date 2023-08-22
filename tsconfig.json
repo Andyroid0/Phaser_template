@@ -17,9 +17,7 @@
 		"paths": {
 		  "~/*": ["./*"]
 		},
-		"typeRoots": [
-			"node_module/phaser/types"
-		],
+
 		"types": [
 			"phaser"
 		]
